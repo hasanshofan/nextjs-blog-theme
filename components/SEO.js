@@ -7,9 +7,7 @@ export default function SEO({ title, description }) {
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta name="google-site-verification" content="-dHMl6XhbXNj_jQqEPgUeHbmA0UyiizEUfwGtyhewOU" />
-        <style>
-        h1{color:red;}
-        </style>
+
     </Head>
   );
 }
