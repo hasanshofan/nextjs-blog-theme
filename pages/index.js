@@ -10,6 +10,7 @@ import SEO from '../components/SEO';
 
 export default function Index({ posts, globalData }) {
   return (
+<meta name="google-site-verification" content="-dHMl6XhbXNj_jQqEPgUeHbmA0UyiizEUfwGtyhewOU" />
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
