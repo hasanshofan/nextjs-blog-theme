@@ -10,11 +10,12 @@ import SEO from '../components/SEO';
 
 export default function Index({ posts, globalData }) {
   return (
-<meta name="google-site-verification" content="-dHMl6XhbXNj_jQqEPgUeHbmA0UyiizEUfwGtyhewOU" />
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
+        <meta name="google-site-verification" content="-dHMl6XhbXNj_jQqEPgUeHbmA0UyiizEUfwGtyhewOU" />
+
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
         </h1>
