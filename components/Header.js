@@ -9,6 +9,8 @@ export default function Header({ name }) {
           <a>{name}</a>
         </Link>
       </p>
+<meta name="google-site-verification" content="-dHMl6XhbXNj_jQqEPgUeHbmA0UyiizEUfwGtyhewOU" />
+
     </header>
   );
 }
